@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+header{
+        min-width: 100vw;
+        height: 100px;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      
+img{
+      width: 200px;
+      height: 100px;
+   }
+   
+nav ul{
+        display: inline-flex;
+        list-style: none;
+      }
+      
+ul > li{
+            margin-right: 10px;
+       }      
